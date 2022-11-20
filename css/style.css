@@ -1,0 +1,696 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.logo-header {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.nav-item,
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  gap: 10px;
+  margin-left: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  letter-spacing: 1px;
+}
+.nav-item:hover,
+.nav-link:hover {
+  color: #86176e;
+}
+
+.btn-mobile {
+  background-color: rgb(53, 4, 53);
+  border: #080609 solid 1px;
+}
+
+.container-header {
+  background-color: rgba(0, 0, 0, 0.959);
+  position: fixed;
+  z-index: 3;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.container01 {
+  background-image: linear-gradient(to right, #000000, #220527);
+  overflow: hidden;
+  height: 95vh;
+}
+
+.section-container {
+  margin-top: 8em;
+}
+
+.section-container,
+.title-job {
+  font-size: 37px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #3bd9d9, #b527cf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation-name: surgeDaEsquerda;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes surgeDaEsquerda {
+  from {
+    margin-left: 5%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
+
+.container02 {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.title-sobre {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 2em;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+.text-about {
+  color: rgb(110, 12, 134);
+  font-size: 27px;
+  letter-spacing: 1px;
+  margin-left: 4em;
+  margin-top: 4em;
+}
+
+.subtext-about {
+  font-size: 19px;
+  font-weight: 400;
+  width: 55em;
+  margin-left: 6em;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+}
+
+.container03 {
+  width: 100%;
+  height: 104vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title-skills {
+  font-size: 35px;
+  padding-top: 2.2em;
+  color: #fff;
+}
+
+#accordionExample {
+  width: 45em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  z-index: 2;
+}
+
+.accordion-item {
+  background-color: #442155;
+  z-index: 2;
+}
+
+.accordion-button {
+  color: #fff;
+  background-color: rgb(28, 2, 36);
+  font-weight: bold;
+  border: none;
+}
+
+.accordion-body {
+  background-color: rgb(15, 15, 15);
+  padding-top: 1em;
+}
+
+.accordion-body p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.progress {
+  height: 20px;
+}
+
+.progress-bar {
+  background-color: #e5009d;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container04 {
+  max-width: 100%;
+  overflow: hidden;
+  min-height: 110vh;
+  background-color: rgb(233, 224, 224);
+  border-left: solid 5px #000;
+}
+
+.text-services {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-top: 3em;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-services {
+  display: flex;
+  justify-content: space-around;
+  gap: 55px;
+  padding-top: 2em;
+  margin-top: 3em;
+}
+
+.card-services .card {
+  background-color: #080609;
+  box-shadow: 10px 12px 20px rgba(0, 0, 0, 0.527);
+  border-bottom: #86176e solid 7px;
+  width: 60vw;
+  height: 40vh;
+  color: #fff;
+  transition: all 0.6s ease-in-out;
+}
+.card-services .card:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.card-services .card-title {
+  color: #893bb1;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 1em;
+}
+
+.text-service-card {
+  margin-top: 1em;
+  font-size: 19px;
+}
+
+.container05 {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #000;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 3em;
+  gap: 10px;
+}
+
+.title-container-project {
+  font-size: 37px;
+  color: #fff;
+  padding-top: 2.5em;
+}
+
+.card-2 {
+  background-color: rgb(19, 17, 17);
+  border: solid 1px #442155;
+  width: 27em;
+  height: 18em;
+  margin-top: 4em;
+  margin-right: 5em;
+  transition: 0.5s ease-in-out;
+}
+.card-2:hover {
+  border: solid 1px #e5009d;
+  transition: 0.5s ease-in-out;
+}
+
+.card-2 h3 {
+  color: #86176e;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.card-2 p {
+  color: #fff;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.card-2 button a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #86176e;
+  padding: 14px;
+  border-radius: 3px;
+  font-size: 17px;
+  transition: 0.4s ease-in-out;
+}
+
+.card-2 button a:hover {
+  background-color: transparent;
+  border: solid 1px #86176e;
+  transition: 0.4s ease-in-out;
+}
+
+.container06 {
+  max-width: 100%;
+  overflow: hidden;
+  height: 24vh;
+  background-color: #080609;
+  padding: 2em;
+}
+
+.social-media .email {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  font-family: sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.social-media .local {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: end;
+  margin-top: 1em;
+}
+
+.social-media .direitos {
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.social-media .direitos:hover {
+  color: #e5009d;
+  transition: all 0.4s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  background: #893bb1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(110, 0, 86);
+  border-radius: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .container-header .logo-header {
+    font-size: 23px;
+  }
+  .container02 {
+    height: 100vh;
+  }
+  .title-container-project {
+    font-size: 23px;
+  }
+  .text-about {
+    font-size: 20px;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  .subtext-about {
+    font-size: 18px;
+    width: 90vw;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  .title-sobre {
+    margin-top: -1em;
+    font-size: 25px;
+  }
+  .container03 {
+    height: 109vh;
+  }
+  .title-skills {
+    font-size: 27px;
+    margin-top: -1em;
+  }
+  #accordionExample {
+    width: 89vw;
+    font-size: 12px;
+  }
+  .container04 {
+    height: 182vh;
+  }
+  .card-services .card {
+    height: 45vh;
+    width: 88vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-services {
+    font-size: 25px;
+    margin-top: -1em;
+  }
+  .card-services {
+    display: block;
+  }
+  .card {
+    margin-top: 2em;
+  }
+  .card-services .card-title {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  .card-services .text-service-card {
+    font-size: 18px;
+  }
+  .container05 {
+    height: 180vh;
+  }
+  .container5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-2 {
+    width: 85vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-2 .title-project {
+    font-size: 22px;
+  }
+  .card-2 .text-project {
+    font-size: 18px;
+  }
+
+  .email {
+    margin-left: 13em;
+  }
+  .local {
+    font-size: 10px;
+    margin-left: -1em;
+  }
+  .section-container .title-job {
+    font-size: 20px;
+    width: 80vw;
+    text-align: center;
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-container {
+    margin-top: 5em;
+  }
+  .container01 {
+    height: 92vh;
+  }
+  .social-media .direitos {
+    font-size: 15px;
+  }
+}
+@media (min-width: 500px) and (max-width: 1024px) {
+  .container-header .logo-header {
+    font-size: 20px;
+  }
+  .container02 {
+    max-width: 100%;
+    height: 99vh;
+  }
+  .text-about {
+    font-size: 25px;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+  .subtext-about {
+    font-size: 25px;
+    width: 90vw;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+  .title-sobre {
+    margin-top: -1em;
+    font-size: 30px;
+  }
+  .container03 {
+    height: 110vh;
+  }
+  .title-skills {
+    font-size: 27px;
+    margin-top: -1em;
+  }
+  #accordionExample {
+    width: 70vw;
+    font-size: 12px;
+    height: 55vh;
+  }
+  .container04 {
+    height: 182vh;
+  }
+  .card-services .card {
+    height: 46vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-services {
+    font-size: 32px;
+    margin-top: -2em;
+  }
+  .card-services {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    margin-top: 1em;
+  }
+  .card-services .card-title {
+    font-size: 25px;
+    margin-top: 1em;
+  }
+  .card-services .text-service-card {
+    font-size: 22px;
+  }
+  .container05 {
+    height: 185vh;
+  }
+  .container5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-2 {
+    width: 75vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-container-project {
+    font-size: 28px;
+  }
+  .card-2 .title-project {
+    font-size: 25px;
+  }
+  .card-2 .text-project {
+    font-size: 18px;
+  }
+  .email {
+    margin-left: 13em;
+  }
+  .local {
+    font-size: 10px;
+    margin-left: -1em;
+  }
+  .section-container .title-job {
+    font-size: 25px;
+    width: 80vw;
+    margin-left: 1em;
+    text-align: center;
+    margin-top: -5em;
+  }
+  .section-container {
+    margin-top: 7em;
+  }
+  .container01 {
+    height: 95vh;
+  }
+  .social-media .direitos {
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+    margin-left: 1em;
+    padding: 5px;
+    margin-top: 2em;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1960px) {
+  .container-header .logo-header {
+    font-size: 27px;
+  }
+  .navbar-nav .nav-item {
+    font-size: 12px;
+  }
+  .container02 {
+    max-width: 100%;
+    height: 105vh;
+  }
+  .text-about {
+    font-size: 22px;
+    margin-left: 3.3em;
+    margin-top: 3em;
+  }
+  .subtext-about {
+    font-size: 19px;
+    width: 70vw;
+    margin-left: 4em;
+    margin-top: 3em;
+    line-height: 2.2em;
+  }
+  .title-sobre {
+    margin-top: 1em;
+    font-size: 32px;
+  }
+  .container03 {
+    height: 120vh;
+  }
+  .title-skills {
+    font-size: 30px;
+    margin-top: -1em;
+  }
+  #accordionExample {
+    width: 45vw;
+    height: 35vh;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container04 {
+    height: 90vh;
+  }
+  .card-services .card {
+    height: 45vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-services {
+    font-size: 35px;
+    margin-top: 1em;
+  }
+  .card-services {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    margin-top: 1em;
+  }
+  .card-services .card-title {
+    font-size: 22px;
+    margin-top: 1em;
+  }
+  .card-services .text-service-card {
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 1em;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .container05 {
+    height: 98vh;
+  }
+  .container5 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    width: 85vw;
+    height: 40vh;
+  }
+  .card-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-container-project {
+    font-size: 32px;
+  }
+  .card-2 .title-project {
+    font-size: 28px;
+  }
+  .card-2 .text-project {
+    font-size: 18px;
+  }
+
+  .email {
+    margin-left: 13em;
+  }
+  .local {
+    font-size: 10px;
+    margin-left: -1em;
+  }
+  .section-container .title-job {
+    font-size: 34px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -5em;
+  }
+  .section-container {
+    margin-top: 7em;
+  }
+  .container01 {
+    height: 102vh;
+  }
+  .social-media .direitos {
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+    margin-left: 1em;
+    padding: 5px;
+    margin-top: 2em;
+  }
+}
