@@ -30,16 +30,16 @@ body {
 }
 .nav-item:hover,
 .nav-link:hover {
-  color: #86176e;
+  color: #c727529f;
 }
 
 .btn-mobile {
-  background-color: rgb(53, 4, 53);
+  background-color: #c72752a2;
   border: #080609 solid 1px;
 }
 
 .container-header {
-  background-color: rgba(0, 0, 0, 0.959);
+  background-color: #000;
   position: fixed;
   z-index: 3;
   max-width: 100%;
@@ -47,7 +47,7 @@ body {
 }
 
 .container01 {
-  background-image: linear-gradient(to right, #000000, #220527);
+  background: linear-gradient(45deg, #000, #000, #000, #c72752);
   overflow: hidden;
   height: 95vh;
 }
@@ -63,7 +63,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
-  background-image: linear-gradient(to right, #3bd9d9, #b527cf);
+  background-image: linear-gradient(to right, #c72752, #b527cf);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -84,18 +84,19 @@ body {
   max-width: 100%;
   overflow: hidden;
   height: 100vh;
+  background-color: #080609;
 }
 
 .title-sobre {
   font-size: 40px;
   font-weight: bold;
   padding-top: 2em;
-  color: rgb(0, 0, 0);
+  color: #fff;
   letter-spacing: 1px;
 }
 
 .text-about {
-  color: rgb(110, 12, 134);
+  color: #c72752;
   font-size: 27px;
   letter-spacing: 1px;
   margin-left: 4em;
@@ -107,7 +108,7 @@ body {
   font-weight: 400;
   width: 55em;
   margin-left: 6em;
-  color: rgb(0, 0, 0);
+  color: gray;
   letter-spacing: 2px;
 }
 
@@ -118,6 +119,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  filter: brightness(85%);
 }
 
 .title-skills {
@@ -162,7 +164,7 @@ body {
 }
 
 .progress-bar {
-  background-color: #e5009d;
+  background-color: #c72752dc;
   font-size: 14px;
   color: #000;
   font-weight: bold;
@@ -173,7 +175,7 @@ body {
   max-width: 100%;
   overflow: hidden;
   min-height: 110vh;
-  background-color: rgb(233, 224, 224);
+  background-color: #080609;
   border-left: solid 5px #000;
 }
 
@@ -182,7 +184,7 @@ body {
   font-weight: bold;
   letter-spacing: 1px;
   padding-top: 3em;
-  color: #000;
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -197,19 +199,19 @@ body {
 .card-services .card {
   background-color: #080609;
   box-shadow: 10px 12px 20px rgba(0, 0, 0, 0.527);
-  border-bottom: #86176e solid 7px;
   width: 60vw;
   height: 40vh;
   color: #fff;
   transition: all 0.6s ease-in-out;
+  border: solid 1px #c7275244;
 }
 .card-services .card:hover {
-  background-color: #fff;
-  color: #000;
+  opacity: 0.5;
+  color: #fff;
 }
 
 .card-services .card-title {
-  color: #893bb1;
+  color: #c72752;
   font-weight: bold;
   font-size: 25px;
   margin-top: 1em;
@@ -242,22 +244,20 @@ body {
 }
 
 .card-2 {
-  background-color: rgb(19, 17, 17);
-  border: solid 1px #442155;
+  background-color: #0e0d0da7;
+  border: transparent solid 1px;
   width: 27em;
   height: 18em;
   margin-top: 4em;
   margin-right: 5em;
   transition: 0.5s ease-in-out;
-}
-.card-2:hover {
-  border: solid 1px #e5009d;
-  transition: 0.5s ease-in-out;
+  box-shadow: #000000 18px 18px 18px 2px;
+  border: solid 1px #c72752;
 }
 
 .card-2 h3 {
-  color: #86176e;
-  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border-bottom: solid 1px #1f040b;
   padding: 10px;
 }
 
@@ -272,17 +272,15 @@ body {
 .card-2 button a {
   color: #fff;
   text-decoration: none;
-  background-color: #86176e;
+  background-color: #c72752;
   padding: 14px;
   border-radius: 3px;
   font-size: 17px;
-  transition: 0.4s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-
 .card-2 button a:hover {
   background-color: transparent;
-  border: solid 1px #86176e;
-  transition: 0.4s ease-in-out;
+  border-bottom: 1px solid #c72752;
 }
 
 .container06 {
@@ -319,21 +317,21 @@ body {
   font-family: sans-serif;
 }
 .social-media .direitos:hover {
-  color: #e5009d;
+  color: #c72752;
   transition: all 0.4s ease-in-out;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: #000;
 }
 
 ::-webkit-scrollbar {
   width: 14px;
-  background: #893bb1;
+  background: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(110, 0, 86);
+  background: #c72752;
   border-radius: 2px;
 }
 
